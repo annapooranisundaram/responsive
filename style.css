@@ -31,7 +31,7 @@ section{
 li{
     padding:5px;
 }
-.nav-link
+.nav-link:hover
 {
     font-size:15px;
     font-weight:bold;
@@ -52,11 +52,11 @@ span{
 p{
     font-size:18px;
 }
-#about img{
+#about img:hover{
     width:25rem;
     height:25rem;
     border-radius:50px;
-
+    
 }
 /*------service-----*/
 
@@ -71,10 +71,13 @@ p{
     transition:1s;
 }
 /*------contact-----*/
-form{
+form:hover{
     padding:40px;
     box-shadow:2px 2px 5px rgb(0,0,0.2),
                 -1px -1px 5px rgb(0,0,.05);
                 border-radius:30px;
 
             }
+        
+            
+       
